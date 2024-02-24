@@ -38,7 +38,7 @@
     height: 80%;
 } */
 
-/* image is step down to 15px at the time of hovering.
+/* image is step down horizontally to 15px at the time of hovering.
 image is covered all over the .single-item div so .single-item div's step down is equal
 to the image's step down as well. */
 
@@ -46,15 +46,17 @@ to the image's step down as well. */
     transform: translateY(15px);
 } 
 
-/* overlaid/black shadowed by the content of ::before is shown here.
-black shadowed is made at .single-team::before{} css class */
+/* overlaid/black shadowed by the content of ::before is shown here. this work 
+is done at the last time of the project.
+black shadowed is made at .single-team::before{} css class. */
 
 .single-team:hover::before{
     opacity: 1;
 } 
 
 /* the whole hidden textual information is displayed and take them at the main place 
-with below .single-team:hover .team-text{}.
+with below .single-team:hover .team-text{}.this work 
+is done at the last time of the project.
 the whole textual information is hidden and step down to 60px 
 horizontally = Y at normal time at with .single-team .team-text {} css class */
 
